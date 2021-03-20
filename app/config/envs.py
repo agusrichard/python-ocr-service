@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 # Setup base directory and load environment variables
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-load_dotenv(os.path.join(BASE_DIR, '.env'))
+load_dotenv(os.path.join(BASE_DIR, 'dev.env'))
 sys.path.append(BASE_DIR)
 
 
