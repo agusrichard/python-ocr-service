@@ -15,3 +15,4 @@ class Envs:
     HOST = os.getenv('HOST')
     PORT = int(os.getenv('PORT'))
     ENVIRONMENT = os.getenv('ENVIRONMENT')
+    DATABASE_URL = os.getenv('DATABASE_URL')
