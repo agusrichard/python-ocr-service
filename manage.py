@@ -9,7 +9,7 @@ args = parser.parse_args()
 
 if __name__ == '__main__':
     try:
-        if args.main_command == 'run':
+        if args.main_command == 'runserver':
             application.run()
         else:
             raise ValueError('The command must be either run or admin')
