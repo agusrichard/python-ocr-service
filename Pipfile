@@ -8,6 +8,11 @@ fastapi = "*"
 uvicorn = "*"
 python-dotenv = "*"
 argparse = "*"
+sqlalchemy = "*"
+alembic = "*"
+pip = "*"
+install = "*"
+mysqlclient = "*"
 
 [dev-packages]
 

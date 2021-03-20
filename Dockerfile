@@ -8,6 +8,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pipenv install
+RUN pip install pipenv
+RUN pipenv install --deploy --ignore-pipfile
 
 EXPOSE 8000
