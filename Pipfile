@@ -13,6 +13,10 @@ alembic = "*"
 pip = "*"
 install = "*"
 mysqlclient = "*"
+imutils = "*"
+keras = "*"
+opencv-python = "*"
+tensorflow = "*"
 
 [dev-packages]
 
